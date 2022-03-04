@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "mangas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "inMyList",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "title",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
